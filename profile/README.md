@@ -44,12 +44,12 @@ The development of AI is progressing fast, as trends shift rapidly. Most people 
 
 Let's ask Claude Code (web version, that is the one on <https://claude.ai>) to `"create a modern static website about greek letter μ"`. This assumes default set of tools, whatever the web backend offers the model. The result has most of the telltale signs of AI generated content:
 
-![slop 1](img/slop1.png)
+![slop 1](../img/slop1.png)
 
 1. incorrect padding, the space between the elements (heading and page content) is too small
 2. using bullet point (·) as a separator in UI design
 
-![slop 2](img/slop2.png)
+![slop 2](../img/slop2.png)
 
 1. left-padded numbers indicating the nth page or slide + em dash (`—`)
 2. stating the obvious (AI models love to leave sentences that point out something that would otherwise be intuitive or obvious to humans)
@@ -58,7 +58,7 @@ Let's ask Claude Code (web version, that is the one on <https://claude.ai>) to `
 5. ["rule of three"](https://en.wikipedia.org/wiki/Rule_of_three_(writing)) (AI loves to use pattern like "A, B and C" when naming examples, even in cases where naming less/more examples would be equally sufficient and would make the text more distinct/creative)
 6. The entire card description has a slight hint of AI due to how it's worded. A human would probably describe the equation using a sentence with different prose.
 
-![slop 3](img/slop2.png)
+![slop 3](../img/slop2.png)
 
 1. once again, providing instructions for something that would often be used by humans intuitively
 2. using default browser style for sliders (for some reason, most agents refuse to provide custom styling for sliders and they opt in for the native browser style for the slider elements)
@@ -66,7 +66,7 @@ Let's ask Claude Code (web version, that is the one on <https://claude.ai>) to `
 
 Okay, but maybe this is just a thing specific to Claude Code in the web UI. Let's instead use [omp](https://omp.sh) and ask GPT-6 Astra to build the same website (`"create a modern static website about greek letter μ, put it in ./index.html"`), again with the default set of skills, rules and tools provided by `omp`:
 
-![slop 4](img/slop4.png)
+![slop 4](../img/slop4.png)
 
 1. "rule of three"
 2. once again, using utf-8 arrows instead of visualizing the flow differently or using icons/images
@@ -77,7 +77,7 @@ Huh, that's weird. Somehow, we once again see the same telltale signs of AI, eve
 
 Hmm okay, maybe third time's the charm. Let's try using Gemini on the web and ask it the same thing (`"create a modern static website about greek letter μ"`), again with no user-provided tools or skills.
 
-![slop 5](img/slop5.png)
+![slop 5](../img/slop5.png)
 
 1. solid color background + one-letter = logo/profile picture
 2. monospace font

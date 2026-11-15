@@ -1,13 +1,11 @@
 <!-- markdownlint-disable no-inline-html -->
 # myoo-skills
 
-<div style="display: inline-block; text-align: center; font-size: 8rem; font-family: monospace; white-space: pre;">
-μ
- \
-    🐄💨
-</div>
-
-</p>
+<h1 align="center"><samp>
+μ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;🐄💨
+</samp></h1>
 
 [μ-skills](https://github.com/myoo-ai/skills) is an opinionated set of tools for AI agent harnesses to enhance their efficiency and capabilities, with hopes of making them deliver more quality outputs.
 

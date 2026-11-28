@@ -126,3 +126,9 @@ In order for AI to produce more distinct and quality outputs, I propose that the
 3. Allow them to see more of the codebase analytics. Human can see warnings from IDE and perform refactoring (like renaming symbols) easily. AI can only work with CLI and text, therefore there needs to be a way how to represent the IDE features in a neat CLI package the AI can use (see [`myoo-ai/cli`](https://github.com/myoo-ai/cli)).
 
 See the [myoo-ai/skills](https://github.com/myoo-ai/skills) repository for quickstart.
+
+## Example
+
+With the [`ui-design`](https://github.com/myoo-ai/skills/blob/main/skills/ui-design/SKILL.md) skill and same prompt in omp ("create a modern static website about greek letter μ") `claude-opus-5-5` + `/advisor` (`gpt-6.1-sol`):
+
+![not-so-slop](../img/not-so-slop.png)
